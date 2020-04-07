@@ -4,9 +4,16 @@ React Component to display Poker Cards in your React Application
 ## Poker Canvas
 I used the Poker Canvas Library from [Tairraos/Poker.JS](https://github.com/Tairraos/Poker.JS)
 
+## Installation
+```
+$ npm install react-pokercards
+````
+
+```
+$ yarn add react-pokercards
+````
+
 ## Usage
-
-
 ```JavaScript
 import PokerCard from 'react-pokercards';
 ````
