@@ -1,0 +1,28 @@
+{
+  "name": "react-pokercards",
+  "version": "1.0.0",
+  "description": "React Component to display Poker Cards",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyTheTank/react-pokercards.git"
+  },
+  "keywords": [
+    "react",
+    "poker",
+    "cards",
+    "pokercards"
+  ],
+  "author": "Jonathan Hornung <jonathan.hornung@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyTheTank/react-pokercards/issues"
+  },
+  "homepage": "https://github.com/JohnnyTheTank/react-pokercards#readme"
+}
