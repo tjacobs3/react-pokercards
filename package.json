@@ -1,13 +1,12 @@
 {
   "name": "react-pokercards",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React Component to display Poker Cards",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": ["dist/"],
+  "types": "dist/index.d.ts",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/JohnnyTheTank/react-pokercards/issues"
   },
-  "homepage": "https://github.com/JohnnyTheTank/react-pokercards#readme"
+  "homepage": "https://github.com/JohnnyTheTank/react-pokercards#readme",
+  "dependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.18",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.3.5"
+  }
 }
